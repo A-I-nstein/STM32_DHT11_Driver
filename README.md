@@ -31,6 +31,9 @@ The core driver files are located in the `Libraries` folder, making them modular
 * STM32CubeIDE (or compatible ARM-based IDE)
 * GNU ARM Embedded Toolchain
 
+### Timer Configuration
+Configure a timer running at exactly 1 MHz (clock cycle of 1 μs). Refer the "Timer Configuration" section in [this](https://stm32world.com/wiki/STM32_Microsecond_Delay) link for more information.
+
 ### Pinout Configuration
 
 The demo application is configured to use the following pins on the STM32:
