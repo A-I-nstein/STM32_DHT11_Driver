@@ -1,0 +1,28 @@
+# Binaries and Build Artifacts
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.su
+
+# STM32CubeIDE specific files
+.metadata
+.project
+.cproject
+.settings/
+.mxproject
+
+# Other common IDE/OS files
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Optional: If you use SW4STM32/Ac6 IDE
+# .settings
+# .cproject
+# .mxproject
